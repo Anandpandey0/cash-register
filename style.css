@@ -1,0 +1,109 @@
+a {
+    text-decoration: none;
+  }
+  
+ 
+  
+  body {
+    font-family: "PT Serif", serif;
+  }
+  
+  .heading-center {
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: var(--white);
+      padding: 0.5rem;
+      background-color: rgb(211, 158, 58);
+    }
+    nav {
+      background-color: var(--primary-color);
+    }
+ 
+  .container {
+    margin: 4rem auto 7rem;
+    text-align: center;
+  }
+  
+  .heading {
+    color: var(--primary-color);
+  }
+  
+  .description {
+    font-size: larger;
+    margin: 1rem;
+  }
+  
+  .input-label {
+    display: block;
+    font-size: large;
+    font-weight: 700;
+  }
+  
+  .input {
+    font-size: 14px;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 258px;
+    
+  }
+  
+  .button {
+    background: var(--primary-color);
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+    border: black;
+    background-color: rgb(211, 158, 58);
+  }
+  #clear-button{
+    margin-top: 0.8rem;
+  }
+  #error-message, #money-to-return {
+    display: block;
+    font-size: larger;
+    margin: 1rem 0 0;
+  }
+  #error-message{
+    color: var(--red);
+  }
+ 
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+  }
+  
+ 
+  .change-table {
+    width: 50%;
+    text-align: justify;
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  .change-table caption {
+    margin: 1rem auto;
+    font-size: x-large;
+    font-weight: 700;
+  }
+  
+  th,
+  td {
+    border: 2px solid var(--primary-color);
+    width: 0%;
+    border-collapse: collapse;
+    padding: 0.4rem;
+    margin: 2rem 2rem;
+    border: solid 3px black;
+  }
