@@ -73,6 +73,8 @@ a {
     display: block;
     font-size: larger;
     margin: 1rem 0 0;
+    font-weight: bolder;
+    color: rgb(211, 158, 58) ;
   }
   #error-message{
     color: var(--red);
